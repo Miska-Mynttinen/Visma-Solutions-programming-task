@@ -6,18 +6,18 @@ Created with Python.
 ## Running the program
 Run the client.py file to see the the result in terminal.
 
-##### I understood the problem as a simple class that needed to check a lot of thing were right and return values based on given URI.
+### I understood the problem as a simple class that needed to check a lot of thing were right and return values based on given URI.
 Verify function of the class IdentifyRequest handles the whole problem due to it being simple and not needing extra parts.
 I put the parser and checkParameters functions inside the verify function, because they serve no function other than to be used in the verify function and shouldn't be accessed any other way.
 
-#### Challenges were bloating of a functions due to parsing of the parameters and checking all of the validators.
+### Challenges were bloating of a functions due to parsing of the parameters and checking all of the validators.
 The parsing of the parameters repeated a lot of code because login was different from confirm and sign. This caused a lot of repeated code in places that should be cleaned.
 
 Validators take up a lot of code for simple things and don't look very clean.
 
 
 ## The given problem
-##### Your task is to design and implement a class which is responsible for identifying what kind of requests it receives. Other apps can call the identity app using the scheme visma-identity.
+### Your task is to design and implement a class which is responsible for identifying what kind of requests it receives. Other apps can call the identity app using the scheme visma-identity.
 A uri consists of three parts:
 Example: visma-identity://login?source=severa
 Scheme: visma-identity
