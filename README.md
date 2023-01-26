@@ -6,7 +6,7 @@ Created with Python.
 ## Running the program
 Run the client.py file to see the the result in terminal.
 
-### I understood the problem as a simple class that needed to check a lot of thing were right and return values based on given URI.
+### I understood the problem as a simple class that needed to check a lot of things were right and return values based on given URI.
 Verify function of the class IdentifyRequest handles the whole problem due to it being simple and not needing extra parts.
 I put the parser and checkParameters functions inside the verify function, because they serve no function other than to be used in the verify function and shouldn't be accessed any other way.
 
